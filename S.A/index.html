@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> React S.A </title>
+    </head>
+
+    <body>
+
+        <form action onsubmit="submit();">
+
+            <div class = "firstName">
+                <label for = "firstName">First name :</label>
+                    <br>
+                <input type = "text" required>
+            </div>
+
+            <div class = "lastName">
+                <label for = "lastName">Last name :</label>
+                    <br>
+                <input type = "text" required>
+            </div>
+
+            <div class = "Email">
+                <label for = "Email">Email :</label>
+                    <br>
+                <input type = "text" required>
+            </div>
+
+
+            <div>
+                <label for = "gender">Gender</label>
+                <input type = "radio" name = "gender" value = "male_info" required>
+                Male
+                <input type = "radio" name = "gender" value = "female_info" required>
+                Female
+            </div>
+
+            <div class = "favorite">
+                <label for = "favorite">Favorite :</label>
+
+                <input type = "checkbox" id = "HTML" name = "HTML" value="html_box">            
+                <label for = "HTML">HTML</label>
+
+                <input type = "checkbox" id = "JAVA" name = "JAVA" value="java_box">
+                <label for = "JAVA">JAVA</label>
+
+                <input type = "checkbox" id = "JavaScript" name = "JavaScript" value="js_box">
+                <label for = "JavaScript">JavaScript</label>
+            </div>
+
+            <div class = "browser">
+                <label for = "browser">Browser :</label>
+                <select class = "browser-select" required>
+                    <option value = "1">크롬</option>
+                    <option value = "1">사파리</option>
+                    <option value = "1">엣지</option>
+                </select>
+            </div>
+
+            <div class = "birthday">
+                <label for = "birthday">Birthday :</label>
+                <input type = "date" value = "연도-월-일">
+            </div>
+
+            <div class = "submit">
+                <input type = "submit">
+            </div>
+
+        </form>
+
+    </body>
+
+</html>
