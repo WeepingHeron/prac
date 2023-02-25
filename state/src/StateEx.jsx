@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function App() {
+function StateEx() {
     const [id, setId] = useState('');
     const [password, setPassword] = useState('');
 
@@ -39,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+export default StateEx;
