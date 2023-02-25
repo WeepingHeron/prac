@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Layout from 'Layout';
 
 // props를 통해 부모 -> 자식 데이터가 전달됐다.
 function  Son(props) {
@@ -20,7 +21,13 @@ function Grandfather() {
 }
 
 function App() {
-  return <Grandfather />;
+  return ( <>
+    <Grandfather />
+    <Layout>
+      <div>App 컴포넌트에서 보낸 값입니다!</div>
+    </Layout>
+  </>
+  )
 }
 
 export default App;
