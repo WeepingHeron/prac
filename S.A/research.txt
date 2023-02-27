@@ -1,14 +1,15 @@
 양방향 바인딩은 무엇일까요? 
-양방향 바인딩을 사용하는 경우 리렌더링이 어떻게 이루어질 지 그려보세요.
+-양방향 바인딩을 사용하는 경우 리렌더링이 어떻게 이루어질 지 그려보세요.
 (부모 컴포넌트 A와 자식 컴포넌트 B가 있음을 가정하고 그려봅시다.)
 
 
 
 SPA 방식과 MPA 방식은 무엇이고, 어떤 장/단점을 가지고 있나요?
 
-SPA(Single Page Application) 혹은 웹 앱(Web App)은 하나의 페이지 안에서 해당되는 요소만 살짝 바꿔주는 개념
-MPA(Multi Page Application)는 리렌더링(re-rendering)이 너무나 많이 이루어져 현대에는 적합하지 않다. => UX 나빠짐
-장점: 단 한 개의 페이지, 서버에 리소스 1회 요청, 이후 필요할 때만 동적으로 생성 (데이터만 받아와 기존 페이지를 수정), 이를 통해 굉장히 자연스러운 UX 구현
+-SPA(Single Page Application) 혹은 웹 앱(Web App)은 하나의 페이지 안에서 해당되는 요소만 살짝 바꿔주는 개념
+-MPA(Multi Page Application)는 리렌더링(re-rendering)이 너무나 많이 이루어져 현대에는 적합하지 않다. => UX 나빠짐
+-장점: 단 한 개의 페이지, 서버에 리소스 1회 요청, 이후 필요할 때만 동적으로 생성 (데이터만 받아와 기존 페이지를 수정), 이를 통해 굉장히 자연스러운 UX 구현
+-단점: SEO에 단점이 있다.
 
 
 
@@ -19,7 +20,7 @@ MPA(Multi Page Application)는 리렌더링(re-rendering)이 너무나 많이 �
 
 SEO의 개념은 무엇이며, 리액트는 SEO에 적합할까요? 그 이유는 무엇일까요?
 
-SEO(Search Engine Optimization)는 검색엔진에 얼마나 노출되느냐이다.
+-SEO(Search Engine Optimization)는 검색엔진에 얼마나 노출되느냐이다.
 리액트는 HTML파일이 index.html 하나 뿐이므로 SEO에는 적합하지 않다.
 
 
@@ -55,3 +56,12 @@ O
 
 4. prop drilling에 대해 설명할 수 있다.
 -데이터가 전달되는 과정이 반복되는 것이 prop drilling, props가 아래로 뚫고 내려간다.라고 한다. 유지/보수 측면에서 곤란하다.
+
+
+
+
+DOM / 브라우저 렌더링
+
+컴포넌트
+
+state
